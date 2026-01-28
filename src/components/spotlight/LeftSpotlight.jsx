@@ -1,7 +1,7 @@
 export default function LeftSpotlight() {
   return (
     <svg
-      style={{ top: 0, position: "absolute", left: 0 }}
+      style={{ top: 0, position: "absolute", left: 0, zIndex: -1 }}
       width="572"
       height="608"
       viewBox="0 0 572 608"
@@ -52,8 +52,16 @@ export default function LeftSpotlight() {
           colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
-          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-          <feGaussianBlur stdDeviation="40" result="effect1_foregroundBlur_2001_68" />
+          <feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="BackgroundImageFix"
+            result="shape"
+          />
+          <feGaussianBlur
+            stdDeviation="40"
+            result="effect1_foregroundBlur_2001_68"
+          />
         </filter>
         <filter
           id="filter1_f_2001_68"
@@ -65,8 +73,16 @@ export default function LeftSpotlight() {
           colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
-          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-          <feGaussianBlur stdDeviation="40" result="effect1_foregroundBlur_2001_68" />
+          <feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="BackgroundImageFix"
+            result="shape"
+          />
+          <feGaussianBlur
+            stdDeviation="40"
+            result="effect1_foregroundBlur_2001_68"
+          />
         </filter>
         <filter
           id="filter2_f_2001_68"
@@ -78,8 +94,16 @@ export default function LeftSpotlight() {
           colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
-          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-          <feGaussianBlur stdDeviation="40" result="effect1_foregroundBlur_2001_68" />
+          <feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="BackgroundImageFix"
+            result="shape"
+          />
+          <feGaussianBlur
+            stdDeviation="40"
+            result="effect1_foregroundBlur_2001_68"
+          />
         </filter>
         <linearGradient
           id="paint0_linear_2001_68"
@@ -115,7 +139,12 @@ export default function LeftSpotlight() {
           <stop offset="1" stopColor="#D3D8DF" />
         </linearGradient>
         <clipPath id="clip0_2001_68">
-          <rect width="805" height="608" fill="white" transform="translate(-233)" />
+          <rect
+            width="805"
+            height="608"
+            fill="white"
+            transform="translate(-233)"
+          />
         </clipPath>
       </defs>
     </svg>

@@ -1,7 +1,7 @@
 export default function RightSpotlight() {
   return (
     <svg
-      style={{ top: 0, position: "absolute", right: 0 }}
+      style={{ top: 0, position: "absolute", right: 0, zIndex: -1 }}
       width="572"
       height="608"
       viewBox="0 0 572 608"
