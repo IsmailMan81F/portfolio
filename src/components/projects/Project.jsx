@@ -10,13 +10,13 @@ export default function Project(props) {
       src={tech}
       alt={tech + " source image"}
       style={{ zIndex: index }}
-      id={index}
+      key={index}
       className="project-tech-icon"
     />
   ));
 
   return (
-    <div className="project-card">
+    <div className="project-card" key={props.key}>
       <div className="project-view">
         <img src={props.image} alt="project image" className="project-image" />
       </div>
