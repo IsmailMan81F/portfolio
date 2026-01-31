@@ -1,0 +1,12 @@
+.contact-title {
+  font-family: var(--inter);
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -2px;
+  text-align: center;
+  color: white;
+}
+
+.contact-title span {
+  color: #cbacf9;
+}

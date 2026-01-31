@@ -1,5 +1,4 @@
 import "./hero.css";
-import '../../index.css'
 import Arrow from "./Arrow";
 import { useState } from "react";
 

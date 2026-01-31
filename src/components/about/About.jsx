@@ -43,15 +43,11 @@ export default function About() {
               </div>
               <div className="skills1-container">
                 <div className="scrolling-up">{skills1}</div>
-                <div className="scrolling-up" aria-hidden>
-                  {skills1}
-                </div>
+                <div className="scrolling-up" aria-hidden>{skills1}</div>
               </div>
               <div className="skills2-container">
                 <div className="scrolling-down">{skills2}</div>
-                <div className="scrolling-down" aria-hidden>
-                  {skills2}
-                </div>
+                <div className="scrolling-down" aria-hidden>{skills2}</div>
               </div>
             </div>
           </div>

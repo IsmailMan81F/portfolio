@@ -198,8 +198,7 @@
   position: absolute;
 }
 
-.skills1-container:hover .scrolling-up,
-.skills2-container:hover .scrolling-down {
+.skills1-container:hover .scrolling-up, .skills2-container:hover .scrolling-down {
   animation-play-state: paused;
 }
 
