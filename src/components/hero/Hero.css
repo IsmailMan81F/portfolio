@@ -45,7 +45,7 @@
   cursor: pointer;
 }
 
-.hero-div button {
+.hero-div a {
   padding: 22px 40px;
   border-radius: 14px;
   background: linear-gradient(90deg, #161a31, #06091f);
@@ -62,7 +62,7 @@
   transition: all 0.3s;
 }
 
-.hero-div button:hover {
+.hero-div a:hover {
   gap: 1.5rem;
 }
 
@@ -83,4 +83,8 @@
   align-items: center;
   flex-direction: column;
   gap: 31px;
+}
+
+.hero-section {
+  scroll-margin-top: 90px;
 }

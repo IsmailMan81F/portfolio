@@ -1,0 +1,29 @@
+.background {
+  position: absolute;
+  z-index: -1;
+  transform: translateX(-50%);
+  left: 50%;
+  pointer-events: none;
+}
+
+.background-top {
+  top: 0;
+}
+
+.background-bottom {
+  bottom: 0;
+  animation: fading 2s ease-in-out infinite;
+  filter: brightness(4);
+}
+
+@keyframes fading {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}

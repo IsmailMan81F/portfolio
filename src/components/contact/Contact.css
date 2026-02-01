@@ -5,8 +5,71 @@
   letter-spacing: -2px;
   text-align: center;
   color: white;
+  width: 44rem;
 }
 
 .contact-title span {
   color: #cbacf9;
+}
+
+.button {
+  padding: 1px;
+  background: linear-gradient(
+    0deg,
+    rgba(105, 113, 162, 0.4),
+    rgba(39, 42, 60, 0.5)
+  );
+  display: inline-block;
+  border-radius: 14px;
+  cursor: pointer;
+  width: max-content;
+}
+
+.button a {
+  padding: 22px 40px;
+  border-radius: 14px;
+  background: linear-gradient(90deg, #161a31, #06091f);
+  border: none;
+  color: white;
+  font-family: var(--inter);
+  line-height: 1.2;
+  font-size: 1.125rem;
+  letter-spacing: -0.48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+  transition: all 0.3s;
+}
+
+.button a:hover {
+  gap: 1.5rem;
+}
+
+.rotate-right {
+  transform: rotate(45deg);
+  transition: 0.3s;
+}
+
+.rotate-left {
+  transform: rotate(0);
+  transition: 0.3s;
+}
+
+.contact-description {
+  font-family: var(--inter);
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: -0.48px;
+  line-height: 1.4;
+  color: #c1c2d3;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.875rem;
+  margin-top: 13.25rem;
 }

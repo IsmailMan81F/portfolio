@@ -1,8 +1,26 @@
 import "../../index.css";
 import "./About.css";
 import CopyIcon from "./CopyIcon";
+import CopiedIcon from "./CopiedIcon";
+import { useState } from "react";
 
 export default function About() {
+  async function CopyToClipBoard(text) {
+    try {
+      await navigator.clipboard.writeText(text);
+      setTimeout(() => {
+        setIsCopied(true);
+      }, 1000);
+    } catch (error) {
+      console.log(error);
+    }
+  }
+
+  const [isCopied, setIsCopied] = useState(true);
+  const handleCopyClick = async () => {
+    setIsCopied(false);
+    await CopyToClipBoard("oi_meguehout@esi.dz");
+  };
   const stack1 = ["ReactJS", "Express", "Typescript", "NextJS"];
   const stack2 = ["VueJS", "NestJS", "GraphQL", "MongoDB"];
   const skills1 = stack1.map((tech, index) => (
@@ -17,7 +35,7 @@ export default function About() {
   ));
 
   return (
-    <section className="porfolio">
+    <section className="porfolio" id="about">
       <div className="up-box">
         <div className="container1">
           <div className="el1">
@@ -43,11 +61,15 @@ export default function About() {
               </div>
               <div className="skills1-container">
                 <div className="scrolling-up">{skills1}</div>
-                <div className="scrolling-up" aria-hidden>{skills1}</div>
+                <div className="scrolling-up" aria-hidden>
+                  {skills1}
+                </div>
               </div>
               <div className="skills2-container">
                 <div className="scrolling-down">{skills2}</div>
-                <div className="scrolling-down" aria-hidden>{skills2}</div>
+                <div className="scrolling-down" aria-hidden>
+                  {skills2}
+                </div>
               </div>
             </div>
           </div>
@@ -67,10 +89,24 @@ export default function About() {
               <h2 className="title">
                 Do you want to start a project together?
               </h2>
-              <button className="button">
-                <CopyIcon />
-                <span>Copy my email address</span>
-              </button>
+
+              {!isCopied ? (
+                <button className="button button-copied">
+                  {" "}
+                  <CopiedIcon />{" "}
+                  <span style={{ color: "#28a745" }}>Copied !</span>{" "}
+                </button>
+              ) : (
+                <button
+                  className="button button-notCopied"
+                  onClick={handleCopyClick}
+                >
+                  <CopyIcon />{" "}
+                  <span style={{ color: "#e4ecff" }}>
+                    Copy my email address
+                  </span>{" "}
+                </button>
+              )}
             </div>
           </div>
         </div>

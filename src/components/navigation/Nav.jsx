@@ -3,9 +3,8 @@ import "./Nav.css";
 import "../../index.css";
 
 export default function Nav() {
-  const links = ["about", "projects", "testimonials", "contact"];
+  const links = ["home", "about", "projects", "testimonials", "contact"];
   const [hoverIndex, setHoverIndex] = useState(null);
-
   const list = links.map((link, index) => (
     <li
       className={`nav-el ${hoverIndex == index ? "hover" : ""}`}

@@ -198,7 +198,8 @@
   position: absolute;
 }
 
-.skills1-container:hover .scrolling-up, .skills2-container:hover .scrolling-down {
+.skills1-container:hover .scrolling-up,
+.skills2-container:hover .scrolling-down {
   animation-play-state: paused;
 }
 
@@ -339,11 +340,17 @@
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: -0.48px;
-  color: #e4ecff;
+}
+
+.el5 .button-copied {
+  width: 6.5625rem;
+}
+
+.el5 .button-notCopied {
+  width: 12.5rem;
 }
 
 .el5 .button {
-  width: 12.5rem;
   height: 2.56rem;
   display: flex;
   justify-content: center;
@@ -353,7 +360,7 @@
   border-radius: 0.43rem;
   border: solid 1px #6971a260;
   position: relative;
-  transition: all 0.2s;
+  transition: filter 0.2s;
 }
 
 .el5 .button:hover {
@@ -440,4 +447,5 @@
   gap: 2.4375rem;
   justify-content: center;
   align-items: center;
+  scroll-margin-top: 8.525rem;
 }

@@ -32,6 +32,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: transform 0.4s;
+}
+
+.experience-card:hover {
+  transform: translateY(-6px);
 }
 
 .experience-profile {

@@ -14,7 +14,7 @@ export default function Projects(params) {
   ));
 
   return (
-    <section className="projects-section">
+    <section className="projects-section" id="projects">
       <h2 className="projects-title">
         A small selection of <span>recent projects</span>
       </h2>

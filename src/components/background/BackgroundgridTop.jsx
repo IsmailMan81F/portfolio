@@ -1,13 +1,16 @@
-export default function Backgroundgrid() {
+import "./Backgroundgrid.css";
+
+export default function BackgroundgridTop() {
   return (
     <svg
-      style={{ position: "absolute", top: 0, zIndex: "-1" }}
+      className="background background-top"
       width="1346"
       height="877"
       viewBox="0 0 1346 877"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
+      {/* ===== Apply the fade mask here ===== */}
       <mask
         id="mask0_2001_16"
         style={{ maskType: "alpha" }}

@@ -16,7 +16,7 @@ export default function Testimonials(params) {
   ));
 
   return (
-    <section className="testimonials-section">
+    <section className="testimonials-section" id="testimonials">
       <h2 className="testimonials-title">
         Kind words from <span>satisfied clients</span>
       </h2>

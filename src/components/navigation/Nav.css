@@ -1,6 +1,6 @@
 .nav {
   background-color: white;
-  width: 451px;
+  width: 527px;
   height: 66px;
   border-radius: 14px;
   padding: 1px;
@@ -33,6 +33,7 @@
   color: #c1c2d3;
   transition: all 0.2s;
   text-transform: capitalize;
+  
 }
 
 .nav-el a:hover {

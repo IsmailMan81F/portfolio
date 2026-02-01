@@ -31,7 +31,8 @@ export default function ProjectCard(props) {
           <div className="project-metadata">
             <div className="project-techs">{icons}</div>
             <a
-              href="#"
+              href="page.html"
+              target="-blank"
               className="project-live-link"
               onMouseEnter={() => setHover(true)}
               onMouseLeave={() => setHover(false)}
