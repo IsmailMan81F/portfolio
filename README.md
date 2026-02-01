@@ -10,7 +10,7 @@ A stunning, professional portfolio website built with React and pure CSS, showca
   
   **A stunning, professional portfolio website showcasing cutting-edge web development skills with smooth animations, responsive design, and modern UI/UX practices.**
 
-  [Live Demo](#) | [Report Bug](#) | [Request Feature](#)
+  [Live Demo](https://modern-porfolio.vercel.app) | [Report Bug](#) | [Request Feature](#)
 
 </div>
 
@@ -25,8 +25,6 @@ A stunning, professional portfolio website built with React and pure CSS, showca
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
 - [Component Architecture](#component-architecture)
-- [Animation & Styling Techniques](#animation--styling-techniques)
-- [Performance Optimizations](#performance-optimizations)
 - [Deployment](#deployment)
 - [Customization](#customization)
 - [License](#license)
@@ -64,7 +62,7 @@ The website features interactive project showcases, client testimonials, profess
 
 **Responsive Design**
 - Mobile-first approach
-- Breakpoints at 480px, 768px, 1024px, and 1440px
+- Breakpoints at 480px, 1024px, and 1440px
 - Flexible grid and flexbox layouts
 - Touch-optimized interactions
 
@@ -97,7 +95,6 @@ The website features interactive project showcases, client testimonials, profess
 - Keyframe Animations - Custom animations
 - CSS Transitions - Smooth property changes
 - Media Queries - Responsive breakpoints
-- Intersection Observer API - Scroll animations
 
 ---
 
@@ -184,6 +181,7 @@ portfolio/
 ├── package-lock.json
 ├── package.json
 └── page.html
+
 ```
 
 **Directory Breakdown:**
@@ -204,8 +202,8 @@ portfolio/
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
-   cd portfolio
+   git clone https://github.com/ismailman81f/modern-porfolio.git
+   cd modern-porfolio
    ```
 
 2. Install dependencies
@@ -329,7 +327,7 @@ export const projects = [
     id: 1,
     title: "Your Project",
     description: "Project description",
-    image: "/path/to/image.png",
+    picture: "/path/to/image.png",
     tech: ["React", "CSS"],
     liveUrl: "https://...",
     githubUrl: "https://..."
@@ -398,14 +396,14 @@ MIT License - feel free to use this project for personal or commercial purposes.
 
 ## Contact
 
-**Project Link:** https://github.com/yourusername/portfolio
+**Project Link:** https://github.com/ismailman81f/modern-porfolio
 
-**Live Demo:** https://yourportfolio.vercel.app
+**Live Demo:** https://modern-porfolio.vercel.app
 
 **Connect:**
-- LinkedIn: linkedin.com/in/yourprofile
-- GitHub: github.com/yourusername
-- Email: your.email@example.com
+- LinkedIn: [linkedin.com/in/ismailmeguehout](linkedin.com/in/ismailmeguehout)
+- GitHub: [github.com/ismailman81f](github.com/ismailman81f)
+- Email: oi_meguehout@esi.dz
 
 ---
 
