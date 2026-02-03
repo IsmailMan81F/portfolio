@@ -183,7 +183,7 @@ portfolio/
 ├── package.json
 └── page.html
 
-```
+``` 
 
 **Directory Breakdown:**
 - `components/` - Modular React components organized by feature
